@@ -59,8 +59,8 @@ under the License.
      <repositories>
        <repository>
          <id>nexus-snapshot-repo</id>
-         <name>your custom repo</name>
-         <url>http://172.31.11.166:8081/repository/maven-java-webapp-repository/</url>
+         <name>maven-java-webapp-Repo</name>
+         <url>http://172.31.90.171:8081/repository/maven-java-webapp-Repo/</url>
        </repository>
 	   
      </repositories>
@@ -70,8 +70,8 @@ under the License.
      <repositories>
        <repository>
          <id>nexus-release-repo</id>
-         <name>your custom repo</name>
-         <url>http://172.31.11.166:8081/repository/maven-java-webapp-repository/</url>
+         <name>maven-java-webapp-Repo</name>
+         <url>http://172.31.90.171:8081/repository/maven-java-webapp-Repo/</url>
        </repository>
      </repositories>
    </profile>
