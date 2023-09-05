@@ -35,7 +35,7 @@ pipeline {
     }
     stage('SonarQube Inspection') {
         steps {
-            sh  """mvn sonar:sonar \
+            sh  """mvn sonar:sonar -X \
                    -Dsonar.projectKey=jenkins_master-client_project \
                    -Dsonar.host.url=http://100.25.191.250:9000 \
                    -Dsonar.login=5102027715154e85b5dbc40370a55f07cf56eef2"""
